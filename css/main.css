@@ -1,3 +1,33 @@
+/*Generales*/
+
+a ,p {
+	font-family: 'Poppins', sans-serif;
+}
+
+.btn-menu {
+	display: inline-block;
+	width: 40px;
+	height: 40px;
+	background: rgba(34,34,32,0.5);
+	border-radius: 30%;
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+	z-index: 99999;
+	margin-right: 20px;
+	transition: all .4s ease;
+	text-align: center;
+	padding-top: 5px;
+	border: 1px solid #FFF;
+}
+
+.btn-menu a {
+	color: #FFF;
+	font-size: 20px;
+}
+
+/*Contadores*/
+
 .contador {
     text-align: center;
     width: 200px;
@@ -17,4 +47,88 @@
 
 .contador p {
     color: #979797;
+}
+
+/*Nosotros*/
+
+.nosotros-items {
+	background: rgb(35,35,35);
+}
+
+.items , .items-l {
+	background: rgb(73,73,73);
+	padding: 10px;
+	font-family: inherit;
+	transition: all 0.5s ease;
+}
+
+.items:hover {
+	text-decoration: none;
+	transform: translateX(-15px);
+}
+
+.items-l:hover {
+	text-decoration: none;
+	transform: translateX(15px);
+}
+
+/*Proyectos*/
+
+.proyecto {
+	transition:  all 0.5s ease;
+	box-shadow: 0 0 5px rgb(73,73,73);
+	position: relative;
+}
+
+.proyecto img {
+	width: 100%;
+	height: 378px;
+	object-fit: cover;
+	object-position: center;
+}
+
+.proyecto:hover {
+	transform: translateY(-10px);
+	box-shadow: 0 8px 5px rgb(73,73,73);
+	text-decoration: none;
+}
+
+.p-titulo {
+	width: 100%;
+	background: rgba(255,255,255,0.8);
+	text-align: center;
+	position: absolute;
+	bottom: 20px;
+	left: 0;
+	padding: 20px;
+	color: rgb(35,35,35);
+}
+
+.p-titulo::after {
+	content: '';
+	position: absolute;
+	display: block;
+	height: 1px;
+	width: 40px;
+	background: rgb(35,35,35);
+	left: 50%;
+	bottom: 10px;
+	transform: translate(-50%);
+}
+
+/*Footer*/
+
+.footer {
+	background: rgb(35,35,35);
+	padding: 30px;
+}
+
+.footer p {
+	color: rgb(73,73,73);
+}
+
+.footer a {
+	color: rgb(73,73,73);
+	margin: 20px;
+	font-size: 30px;
 }
