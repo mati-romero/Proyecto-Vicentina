@@ -29,24 +29,68 @@ a ,p {
 /*Contadores*/
 
 .contador {
-    text-align: center;
-    width: 200px;
+	text-align: center;
+	width: 200px;
 }
 
 .contador .valor {
-    margin-top: 20px;
-    font-size:25px;
-    font-weight:bold;
-    color:  rgb(68,68,68);
+	margin-top: 20px;
+	font-size:25px;
+	font-weight:bold;
+	color:  rgb(68,68,68);
 }
 
 .contador i {
-    color: rgb(24,155,211);
-    font-size: 50px;
+	color: rgb(24,155,211);
+	font-size: 50px;
 }
 
 .contador p {
-    color: #979797;
+	color: #979797;
+}
+
+/*Publicidad*/
+
+.publicidad {
+	position: relative;
+}
+
+.imagen-publicidad img {
+	width: 100%;
+}
+
+.texto-publicidad {
+	width: 100%;
+	position: absolute;
+	top: 40%;
+	right: 60px;
+	text-align: right;
+}
+
+.texto-publicidad h3 {
+	color: white;
+	text-shadow:  0.1em 0.1em 0.05em rgb(73,73,73);
+	font-weight: 600;
+}
+
+.texto-publicidad p {
+	color: white;
+	font-size: 20px;
+	text-shadow: 0.1em 0.1em 0.2em rgb(73,73,73);
+	max-width: 1000px;
+	margin-left: auto;
+	font-weight: 400;
+}
+
+.texto-publicidad a {
+	padding: 15px 50px;
+	background: rgb(78,198,35);
+	color: white;
+	border-radius: 10px;
+}
+
+.texto-publicidad a:hover {
+	text-decoration: none;
 }
 
 /*Nosotros*/
@@ -114,6 +158,61 @@ a ,p {
 	left: 50%;
 	bottom: 10px;
 	transform: translate(-50%);
+}
+
+/*Noticias*/
+
+.noticias img {
+	width: 100%;
+	height: 178px;
+	object-fit: cover;
+	object-position: center;
+	transition:  all 0.5s ease;
+}
+
+.noticias img:hover {
+	filter: saturate(180%);
+}
+
+.noticias a {
+	color: rgb(35,35,35);
+	transition:  all 0.5s ease;
+}
+
+.noticias a:hover {
+	text-decoration: none;
+	color: rgb(78,198,35);
+}
+
+.btn-compartir {
+	background: none;
+	border: none;
+	display: inline-block;
+}
+
+.compartir {
+	display: none;
+}
+
+.compartir a {
+	color: white;
+	padding: 5px 10px;
+	border-radius: 5px;
+	font-weight: 500;
+	transition:  all 0.5s ease;
+}
+
+.compartir a:hover {
+	text-decoration: none;
+	filter: saturate(180%);
+}
+
+#facebook {
+	background: #3b5998;
+}
+
+#twitter {
+	background: #00acee;
 }
 
 /*Footer*/
