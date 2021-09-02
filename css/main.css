@@ -1,3 +1,10 @@
+/*
+AMARILLO: #E7C754;
+VERDE: #8AB57D;
+AZUL: #538DBE;
+
+*/
+
 /*Generales*/
 
 a ,p {
@@ -90,6 +97,56 @@ a ,p {
 }
 
 .texto-publicidad a:hover {
+	text-decoration: none;
+}
+
+/*Pop Up*/
+
+.pop-up {
+	position: fixed;
+	width: 100%;
+	height: 100vh;
+	top: 0;
+	left: 0;
+	background: rgba(0,0,0,0.4);
+	z-index: 9999999999;
+	padding: 30px;
+	display: block;
+}
+
+.pop-up-contenido {
+	margin: auto;
+	margin-top: 100px;
+	width: 30%;
+	background: #E7C754;
+	padding: 30px;
+	position: relative;
+}
+
+.pop-up-contenido button {
+	background: none;
+	border: none;
+	font-size: 20px;
+}
+
+.pop-up-contenido img {
+	width: 100%;
+}
+
+.pop-up-contenido a {
+	position: absolute;
+	top: 60%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	padding:  7px 30px;
+	background: #8AB57D;
+	text-transform: uppercase;
+	border-radius: 5px;
+	box-shadow: 0 0 5px rgb(73,73,73);
+	color: white;
+}
+
+.pop-up-contenido a:hover {
 	text-decoration: none;
 }
 

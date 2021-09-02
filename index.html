@@ -22,6 +22,30 @@
 		</a>
 	</div>
 
+	<!-- Pop Up -->
+	<div class="pop-up">
+		<div class="pop-up-contenido">
+			<div class="text-right mb-4">
+				<button type="button" onclick="closePopUp()"><span aria-hidden="true" class="font-weight-bold">&times;</span></button>				
+			</div>
+
+			<script type="text/javascript">
+				function closePopUp() {
+					document.querySelector(".pop-up").style.display = "none";
+				}
+			</script>
+
+			<img src="img/pop-up.jpg">
+
+			<div class="pop-up-text my-3">
+				<h4 class="text-center text-uppercase text-white">Tu aporte nos estás ayudando a poder llegar a más lugares y a sostener más proyectos.</h4>
+			</div>
+
+			<a href="#"><h4>Donar ahora</h4></a>
+		</div>
+	</div>
+
+	<!-- Navegador -->
 	<nav class="navbar navbar-expand-lg navbar-light bg-light p-5 fixed-top">
 		<a class="navbar-brand" href="#">Logo</a>
 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -398,5 +422,6 @@
 	<script src="js/scroll-suave.js"></script>
 	<script src="js/contador.js"></script>
 	<script src="js/compartir.js"></script>
+	<script src="jspop-up.js"></script>
 </body>
 </html>
