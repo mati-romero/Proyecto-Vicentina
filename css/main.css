@@ -279,12 +279,25 @@ a ,p {
 	padding: 30px;
 }
 
-.footer p {
-	color: rgb(73,73,73);
+.footer p , h2 {
+	color: white;
 }
 
 .footer a {
-	color: rgb(73,73,73);
+	color: white;
 	margin: 20px;
 	font-size: 30px;
+}
+
+.subject input , .input input {
+	width: 100%;
+}
+
+.textarea textarea {
+	width: 100%;
+	min-height: 200px;
+}
+
+form p {
+	display: none;
 }

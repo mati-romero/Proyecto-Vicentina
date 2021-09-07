@@ -47,7 +47,7 @@
 
 	<!-- Navegador -->
 	<nav class="navbar navbar-expand-lg navbar-light bg-light p-5 fixed-top">
-		<a class="navbar-brand" href="#">Logo</a>
+		<a class="navbar-brand" href="#"><img style="width: 100px" src="img/NUEVO-LOGO-OK2021-transp-01.png"></a>
 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 			<span class="navbar-toggler-icon"></span>
 		</button>
@@ -391,37 +391,95 @@
 	</section>
 
 	<footer class="footer">
-		<div class="redes-sociales text-center">
-			<a href="https://www.facebook.com/fundacionvicentina">
-				<i class="fab fa-facebook-f"></i>
-			</a>
-			<a href="https://instagram.com/fundacion.vicentina?igshid=yv7v1ga09194">
-				<i class="fab fa-instagram"></i>
-			</a>
-			<a href="https://twitter.com/fundvicentina">
-				<i class="fab fa-twitter"></i>
-			</a>
-			<a href="https://www.linkedin.com/in/fundaci%C3%B3n-vicentina-57b473211">
-				<i class="fab fa-linkedin-in"></i>
-			</a>
-			<a href="https://www.youtube.com/channel/UCo3pu5ilrlZIfPg908wej4g">
-				<i class="fab fa-youtube"></i>
-			</a>
-			<a href="https://fundvicentina.blogspot.com/?view=classic">
-				<i class="fab fa-blogger-b"></i>
-			</a>
+		<div class="footer p-5">
+			<h2 class="text-center">Contacto</h2>
+
+			<p class="text-center w-50 m-auto">
+				Si querés saber más de nuestra fundación, como colaborar, o tenés alguna duda, contactate con nosotros.
+			</p>
+
+			<div class="row my-5">
+				<div class="row col-6 p-5 align-items-center">
+					<div class="col-3">
+						<img class="img-fluid" src="img/NUEVO-LOGO-OK2021-transp-01.png">
+					</div>
+
+					<div class="col-6">
+						<p>
+							Somos una organización social sin fines de lucro fundada en 2010 en la ciudad de Córdoba, Argentina.
+						</p>
+					</div>
+
+					<div class="col-12">
+						<p><i class="far fa-envelope"></i> fund.vicentina@gmail.com</p>
+						<p><i class="fab fa-whatsapp"></i> 0351-152721536</p>
+						<p><i class="fas fa-map-marker-alt"></i> 9 de julio 1359 , CP 5000. Cordoba, Argentina</p>
+					</div>
+				</div>
+
+				<div class="col-6 p-5">
+					<form action="../php/contacto.php" method="POST">
+						<div class="row my-3">
+							<div class="col-6 input">
+								<input type="text" name="nombre" placeholder="Nombre" id="nombre">
+								<p class="error">Por favor, escriba su nombre.</p>
+							</div>
+							<div class="col-6 input">
+								<input type="email" name="email" placeholder="Tu correo" id="email">
+								<p class="error">Por favor, escriba su correo</p>
+							</div>
+						</div>
+						
+						<div class="subject my-3">
+							<input type="text" name="asunto" placeholder="Asunto" id="asunto">
+							<p class="error">Por favor, escriba su asunto.</p>
+						</div>
+						<div class="textarea my-3">
+							<textarea name="mensaje" placeholder="Mensaje" id="mensaje"></textarea>
+							<p class="error">Por favor escriba su mensaje</p>
+						</div>
+						<div>
+							<input id="Enviar" type="submit" name="enviar" value="Send">
+						</div>
+					</form>
+				</div>
+
+				<div class="col-12 redes-sociales text-center my-5">
+					<a href="https://www.facebook.com/fundacionvicentina">
+						<i class="fab fa-facebook-f"></i>
+					</a>
+					<a href="https://instagram.com/fundacion.vicentina?igshid=yv7v1ga09194">
+						<i class="fab fa-instagram"></i>
+					</a>
+					<a href="https://twitter.com/fundvicentina">
+						<i class="fab fa-twitter"></i>
+					</a>
+					<a href="https://www.linkedin.com/in/fundaci%C3%B3n-vicentina-57b473211">
+						<i class="fab fa-linkedin-in"></i>
+					</a>
+					<a href="https://www.youtube.com/channel/UCo3pu5ilrlZIfPg908wej4g">
+						<i class="fab fa-youtube"></i>
+					</a>
+					<a href="https://fundvicentina.blogspot.com/?view=classic">
+						<i class="fab fa-blogger-b"></i>
+					</a>
+				</div>
+			</div>
 		</div>
-	</footer>
+
+		<p class="text-center">Fundación Vicentina Argentina.</p>
+		<p class="text-center">Copyright © 2021. All rights reserved.</p>
+	</div>
+</footer>
 
 
-	<script src="js/jquery-3.6.0.min.js"></script>
-	<script src="js/popper.js"></script>
-	<script src="bootstrap/js/bootstrap.min.js"></script>
-	<script src="js/btn-slide.js"></script>
-	<script src="js/bg-color.js"></script>
-	<script src="js/scroll-suave.js"></script>
-	<script src="js/contador.js"></script>
-	<script src="js/compartir.js"></script>
-	<script src="jspop-up.js"></script>
+<script src="js/jquery-3.6.0.min.js"></script>
+<script src="js/popper.js"></script>
+<script src="bootstrap/js/bootstrap.min.js"></script>
+<script src="js/btn-slide.js"></script>
+<script src="js/bg-color.js"></script>
+<script src="js/scroll-suave.js"></script>
+<script src="js/contador.js"></script>
+<script src="js/compartir.js"></script>
 </body>
 </html>
