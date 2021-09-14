@@ -2,6 +2,7 @@
 AMARILLO: #E7C754;
 VERDE: #8AB57D;
 AZUL: #538DBE;
+NEGRO: #1C1B19;
 
 */
 
@@ -10,6 +11,28 @@ AZUL: #538DBE;
 a ,p {
 	font-family: 'Poppins', sans-serif;
 }
+
+.texto-negro {
+	color: #1C1B19;
+}
+
+.texto-azul {
+	color: #538DBE;
+}
+
+.boton-verde a , .boton-verde input {
+	padding: 15px 50px;
+	background: #8AB57D;
+	color: white;
+	border-radius: 10px;
+}
+
+.boton-verde a:hover {
+	text-decoration: none;
+}
+
+
+/*Boton*/
 
 .btn-menu {
 	display: inline-block;
@@ -31,6 +54,17 @@ a ,p {
 .btn-menu a {
 	color: #FFF;
 	font-size: 20px;
+}
+
+/*Navegador*/
+
+.navbar .navbar-collapse .navbar-nav .nav-item a {
+	color: #1C1B19;
+	font-size: 20px;
+}
+
+.navbar .navbar-collapse .navbar-nav .nav-item a:hover {
+	color: #538DBE;
 }
 
 /*Contadores*/
@@ -89,17 +123,6 @@ a ,p {
 	font-weight: 400;
 }
 
-.texto-publicidad a {
-	padding: 15px 50px;
-	background: rgb(78,198,35);
-	color: white;
-	border-radius: 10px;
-}
-
-.texto-publicidad a:hover {
-	text-decoration: none;
-}
-
 /*Pop Up*/
 
 .pop-up {
@@ -153,7 +176,7 @@ a ,p {
 /*Nosotros*/
 
 .nosotros-items {
-	background: rgb(35,35,35);
+	background: #538DBE;
 }
 
 .items , .items-l {
@@ -287,6 +310,11 @@ a ,p {
 	color: white;
 	margin: 20px;
 	font-size: 30px;
+}
+
+.footer a:hover {
+	text-decoration: none;
+	color: #8AB57D;
 }
 
 .subject input , .input input {
