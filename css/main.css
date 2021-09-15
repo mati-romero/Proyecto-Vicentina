@@ -158,7 +158,7 @@ a ,p {
 
 .pop-up-contenido a {
 	position: absolute;
-	top: 60%;
+	top: 65%;
 	left: 50%;
 	transform: translate(-50%, -50%);
 	padding:  7px 30px;
@@ -166,7 +166,7 @@ a ,p {
 	text-transform: uppercase;
 	border-radius: 5px;
 	box-shadow: 0 0 5px rgb(73,73,73);
-	color: white;
+	color: #1C1B19;
 }
 
 .pop-up-contenido a:hover {
@@ -306,15 +306,11 @@ a ,p {
 	color: white;
 }
 
-.footer a {
+.footer-menu a {
 	color: white;
-	margin: 20px;
-	font-size: 30px;
-}
-
-.footer a:hover {
-	text-decoration: none;
-	color: #8AB57D;
+	margin-top: 20px;
+	font-size: 10px;
+	display: block;
 }
 
 .subject input , .input input {
@@ -328,4 +324,15 @@ a ,p {
 
 form p {
 	display: none;
+}
+
+.footer .redes-sociales a {
+	color: white;
+	margin: 20px;
+	font-size: 30px;
+}
+
+.footer a:hover {
+	text-decoration: none;
+	color: #8AB57D;
 }
