@@ -1,0 +1,25 @@
+
+h1 {
+	color: #538DBE;
+}
+
+img {
+	width: 100%;
+}
+
+.navegador {
+	width: 100%;
+}
+
+.navegador img {
+	width: 150px;
+}
+
+.navegador-links a {
+	color: #1C1B19;
+}
+
+.navegador-links a:hover {
+	color: #8AB57D;
+	text-decoration: none;
+}
