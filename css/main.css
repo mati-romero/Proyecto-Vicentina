@@ -12,6 +12,14 @@ a ,p {
 	font-family: 'Poppins', sans-serif;
 }
 
+.fondo-azul {
+	background: #538DBE;
+}
+
+.fondo-verde {
+	background: #8AB57D;
+}
+
 .texto-negro {
 	color: #1C1B19;
 }

@@ -23,3 +23,43 @@ img {
 	color: #8AB57D;
 	text-decoration: none;
 }
+
+/*PDF*/
+
+.pdf a {
+	color: #1C1B19;
+	font-family: 'Poppins', sans-serif;
+}
+
+.pdf i {
+	font-size: 50px;
+	margin: 10px;
+}
+
+.pdf a:hover {
+	text-decoration: none;
+	color: #8AB57D;
+}
+
+/* Equipo */
+
+.equipo img {
+	width: 100%;
+	border-radius: 50%;
+}
+
+.equipo a {
+	color: #538DBE;
+}
+
+.equipo a:hover {
+	color: #8AB57D;
+}
+
+.equipo .redes i {
+	font-size: 30px;
+}
+
+.equipo .correo {
+	color: #8AB57D;
+}
