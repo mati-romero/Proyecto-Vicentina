@@ -63,3 +63,45 @@ img {
 .equipo .correo {
 	color: #8AB57D;
 }
+
+/*Botones desplegar*/
+
+.boton-desplegar {
+	margin: 50px 0;
+	padding: 10px 0;
+	color: #538DBE;
+	width: 250px;
+	cursor: pointer;
+}
+
+.boton-desplegar a {
+	color: #538DBE;
+	text-decoration: none;
+	cursor: pointer;
+	pointer-events: none;
+	font-size: 20px;
+	font-weight: 500;
+}
+
+#FormEmp ,#FormDon ,#FormVol {
+	display: none;
+}
+
+/*Cbu*/
+
+.cbu {
+	margin: auto;
+	margin-top: 80px;
+	width: 500px;
+	border: 3px solid #538DBE;
+	padding: 30px;
+	border-radius: 20px;
+}
+
+.cbu p {
+	color: #538DBE;
+	font-size: 20px;
+	margin-top: 10px;
+	font-weight: 500;
+	text-align: left;
+}
