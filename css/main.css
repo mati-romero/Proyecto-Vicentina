@@ -39,6 +39,17 @@ a ,p {
 	text-decoration: none;
 }
 
+.boton-azul a {
+	padding: 15px 50px;
+	background: #538DBE;
+	color: white;
+	border-radius: 10px;
+}
+
+.boton-azul a:hover {
+	text-decoration: none;
+}
+
 
 /*Boton*/
 

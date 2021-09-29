@@ -105,3 +105,22 @@ img {
 	font-weight: 500;
 	text-align: left;
 }
+
+/* Mercado Libre*/
+
+
+
+.mercadopago .links {
+	border: 1px solid gray;
+	padding: 20px;
+	border-radius: 0.2857142857142857em;
+	display: inline-block;
+}
+
+.mercadopago .links:hover {
+	border: 1px solid #538DBE;
+}
+
+.mercadopago .links:hover p {
+	color: #538DBE;
+}
