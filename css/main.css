@@ -12,12 +12,20 @@ a ,p {
 	font-family: 'Poppins', sans-serif;
 }
 
+p {
+	font-size: 18px;
+}
+
 .fondo-azul {
 	background: #538DBE;
 }
 
 .fondo-verde {
 	background: #8AB57D;
+}
+
+.fondo-negro {
+	background: #1C1B19;
 }
 
 .texto-negro {
@@ -158,10 +166,10 @@ a ,p {
 
 .pop-up-contenido {
 	margin: auto;
-	margin-top: 100px;
+	margin-top: 50px;
 	width: 30%;
-	background: #E7C754;
-	padding: 30px;
+	background: #538DBE;
+	padding: 10px;
 	position: relative;
 }
 
@@ -175,21 +183,26 @@ a ,p {
 	width: 100%;
 }
 
-.pop-up-contenido a {
-	position: absolute;
-	top: 65%;
-	left: 50%;
-	transform: translate(-50%, -50%);
+.pop-boton a {
 	padding:  7px 30px;
 	background: #8AB57D;
 	text-transform: uppercase;
 	border-radius: 5px;
 	box-shadow: 0 0 5px rgb(73,73,73);
 	color: #1C1B19;
+	font-size: 25px;
 }
 
 .pop-up-contenido a:hover {
 	text-decoration: none;
+}
+
+.pop-up-text {
+	position: absolute;
+	top: 75%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
 }
 
 /*Nosotros*/
