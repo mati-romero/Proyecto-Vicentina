@@ -58,6 +58,28 @@ p {
 	text-decoration: none;
 }
 
+/*Banner*/
+
+.banner {
+	position: relative;
+}
+
+.bannerTexto {
+	width: 100%;
+	position: absolute;
+	bottom: 10%;
+	left: 0;
+}
+
+.bannerTexto p {
+	padding: 30px;
+	background: #538DBE;
+	color: white;
+	font-size: 30px;
+	text-shadow: 0.1em 0.1em 0.2em rgb(73,73,73);
+	font-weight: 400;
+}
+
 /*Main*/
 
 .main {
@@ -240,6 +262,10 @@ p {
 	text-align: center;
 }
 
+.proyecto img {
+	width: 60px;
+}
+
 .proyecto i {
 	font-size: 50px;
 	margin: 10px;
@@ -247,7 +273,7 @@ p {
 
 .proyecto:hover {
 	text-decoration: none;
-	color: #8AB57D;
+	color: #1C1B19;
 }
 
 /*Noticias*/
