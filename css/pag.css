@@ -108,8 +108,6 @@ img {
 
 /* Mercado Libre*/
 
-
-
 .mercadopago .links {
 	border: 1px solid gray;
 	padding: 20px;
@@ -123,4 +121,11 @@ img {
 
 .mercadopago .links:hover p {
 	color: #538DBE;
+}
+
+/* ODS */
+
+.ods-items a:hover {
+	border: 5px solid #538DBE;
+	border-radius: 10px;
 }
