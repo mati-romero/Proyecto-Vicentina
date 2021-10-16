@@ -241,11 +241,21 @@ p {
 	background: #538DBE;
 }
 
+.nosotros-items h2 {
+	color: white;
+}
+
+.nosotros-items p {
+	color: white;
+	font-weight: 400;
+}
+
 .items , .items-l {
-	background: rgb(73,73,73);
+	background: #4F7FA8;
 	padding: 10px;
 	font-family: inherit;
 	transition: all 0.5s ease;
+	box-shadow: 0 0 5px rgb(73,73,73);
 }
 
 .items:hover {
