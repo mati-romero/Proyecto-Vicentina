@@ -8,7 +8,6 @@
 	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="fontawesome/css/all.min.css">
 	<link rel="stylesheet" type="text/css" href="css/main.css">
-	<link rel="stylesheet" type="text/css" href="css/desfile.css">
 
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -16,6 +15,8 @@
 
 </head>
 <body>
+
+	<!-- Boton Arriba -->
 
 	<div id="Btn-menu" class="btn-menu">
 		<a class="volver-arriba" href="#">
@@ -38,12 +39,12 @@
 
 			<img src="img/pop-up1 +logo.jpeg">
 
-			<div class="pop-up-text my-3">
+			<div class="pop-up-text my-3">				
+				<h4 class="text-center text-uppercase text-white">Tu aporte nos estás ayudando a poder llegar a más lugares y a sostener más proyectos.</h4>
+
 				<div class="pop-boton my-3">
 					<a href="pag/donar.html">Donar ahora</a>
 				</div>
-				
-				<h4 class="text-center text-uppercase text-white">Tu aporte nos estás ayudando a poder llegar a más lugares y a sostener más proyectos.</h4>
 			</div>
 		</div>
 	</div>
@@ -114,7 +115,8 @@
 	</nav>
 
 	<section class="main">
-		<div class="container-fluid">
+
+		<section class="bannerSection d-none d-xl-block">
 			<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
 				<ol class="carousel-indicators">
 					<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -165,410 +167,382 @@
 					<span class="sr-only">Next</span>
 				</a>
 			</div>
-		</div>
+		</section>
 
-		<section class="nosotros my-5" id="Nosotros">
+		<section class="nosotros my-5 py-5 fondo-azul" id="Nosotros">
+			<div class="container">
+				<div class="">
+					<h1 class="text-center text-white">¿Quiénes somos?</h1>
+					<p class="text-center m-auto text-white">
+						Somos una organización social sin fines de lucro fundada en 2010 en la ciudad de Córdoba, Argentina. Trabajamos en un ámbito abierto y de acción 
+						colectiva para promover el desarrollo, la inclusión y la organización social. Nuestra fundación articula su trabajo con otras organizaciones de la 
+						sociedad, organismos gubernamentales, instituciones y voluntarixs; fortaleciendo alianzas con distintas organizaciones del sector público, privado 
+						y social para impulsar acciones que promuevan una mejor calidad de vida.
+					</p>
+				</div>
+			</section>
+
+			<section class="contadores">
+				<div class="container">
+					<div class="row w-100 justify-content-center my-5 mx-0 p-0">
+						<div class="col-auto contador my-3">
+							<i class="fa fa-graduation-cap" aria-hidden="true"></i>
+							<div id="Egresados" class="valor" data-target="600" data-init ="0">0</div>
+							<p>egresados en 27 oficios</p>
+						</div>
+
+						<div class="col-auto contador my-3">
+							<i class="fa fa-user" aria-hidden="true"></i>
+							<div id="Ninos" class="valor" data-target="150" data-init="0">0</div>
+							<p>niños recibieron acompañamiento integral</p>
+						</div>
+
+						<div class="col-auto contador my-3">
+							<i class="fa fa-users" aria-hidden="true"></i>
+							<div id="Familias" class="valor" data-target="200" data-init="0">0</div>
+							<p>familias que reciben el programa Mas leche, mas proteínas</p>
+						</div>
+
+						<div class="col-auto contador my-3">
+							<i class="fa fa-plus-square" aria-hidden="true"></i>
+							<div id="Vacunacion" class="valor" data-target="600" data-init="0">0</div>
+							<p>personas completaron su vacunación</p>
+						</div>
+
+						<div class="col-auto contador my-3">
+							<i class="fas fa-utensils"></i>
+							<div id="Alimentos" class="valor" data-target="500" data-init="0">0</div>
+							<p>personas recibieron alimentos gracias a los programas</p>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="nosotros-items py-5 fondo-gris-claro">
+				<div class="container-fluid">
+					<div class="row align-items-center p-5">
+						<div class="d-none d-xl-block col-6 px-4">
+
+							<h2 class="text-center">Nosotrxs</h2>
+
+							<p class="text-center m-auto">
+								La entidad Fundación Vicentina fue fundada en el año 2010 en la ciudad de Córdoba, Argentina.
+								Desde sus inicios ha estado compuesta en su totalidad por mujeres y, actualmente, tanto en el consejo administrativo, como la mayoría de voluntarios e integrantes de las diferentes áreas también son mujeres: algunas estudiantes y egresadas de la Licenciatura en Relaciones Internacionales entre otras carreras también como diseño. A su vez hemos incluido a otros profesionales tanto varones como disidentes para cubrir diferentes áreas.  
+								Trabajamos en un ámbito abierto y de acción colectiva para promover los derechos humanos, el desarrollo, la inclusión y la organización social. Articulamos con otras organizaciones de la sociedad civil, organismos gubernamentales e instituciones con el fin de impulsar acciones y proyectos que permitan una mejor calidad de vida.
+							</p>
+						</div>
+
+						<div class="row col-12 col-xl-6 justify-content-between justify-content-xl-center">
+							<a class="col-12 col-xl-5 items align-items-center m-2" href="nosotrxs/nuestra-historia.html">
+								<h3 class="text-white text-center">Nuestra Historia</h3>
+							</a>
+
+							<a class="col-12 col-xl-5 items-l align-items-center m-2" href="nosotrxs/equipo.html">
+								<h3 class="text-white text-center">Nuestro Equipo</h3>
+							</a>
+
+							<a class="col-12 col-xl-5 items align-items-center m-2" href="nosotrxs/valores.html">
+								<h3 class="text-white text-center">Objetivos específicos</h3>
+							</a>
+
+							<a class="col-12 col-xl-5 items-l align-items-center m-2" href="nosotrxs/portal-de-transparencia.html">
+								<h3 class="text-white text-center">Portal de transparencia</h3>
+							</a>
+
+							<a class="col-12 col-xl-5 items align-items-center m-2" href="nosotrxs/valores.html">
+								<h3 class="text-white text-center">Valores</h3>
+							</a>
+
+							<a class="col-12 col-xl-5 items-l align-items-center m-2" href="nosotrxs/mision&vision.html">
+								<h3 class="text-white text-center">Misión y Visión</h3>
+							</a>
+						</div>
+					</div>		
+				</div>
+			</section>
+
+			<sectiones class="donaciones my-5">
+				<div class="container-fluid">
+
+					<h2 class="text-center text-xl-left my-5">Donaciones</h2>
+
+					<div class="row justify-content-center justify-content-xl-between m-0">
+						<div class="col-12 col-xl-8 row align-content-between">
+							<div class="m-0 col-12 row publicidad align-items-center fondo-azul p-0">
+								<div class="d-none d-lg-block col-8 p-0">
+									<img class="w-100" src="img/p001.jpeg">
+								</div>
+
+								<div class="col-12 col-lg-4 p-3 p-lg-1">
+									<div class="texto-publicidad text-center my-2">
+										<h3>Donación en especie</h3>
+										<p class="my-4">
+											Sus aportes y contribuciones son indispensables para el sostenimiento, crecimiento y fortalecimiento de nuestra comunidad. 
+										</p>
+
+										<div class="boton-verde">
+											<a href="pag/donar.html">Donar ahora</a>						
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<div class="m-0 my-3 col-12 dona-box-link-a fondo-gris-oscuro py-6 pl-5">
+								<a class="row justify-content-between align-items-center" href="">
+									<p class="col-10">Mira todas las otras maneras con las que podes colaborar con la Fundación Vicentina</p>
+									<span class="col-2"><i class="fas fa-angle-right"></i></span>
+								</a>
+							</div>
+						</div>
+
+						<div class="col-12 col-xl-4 row align-content-between">
+
+							<div class="col-12 fondo-azul dona-box-link mb-3 p-0">
+								<div class="fondo-negro mt-5 py-6 pl-5 dona-box-link-a">
+									<a class="row justify-content-between align-items-center" href="">
+										<h3 class="col-10">Voluntariado</h3>
+										<span class="col-2"><i class="fas fa-angle-right"></i></span>
+									</a>
+								</div>
+							</div>
+
+							<div class="col-12 fondo-azul dona-box-link mb-3 p-0">
+								<div class="fondo-negro mt-5 py-6 pl-5 dona-box-link-a">
+									<a class="row justify-content-between align-items-center" href="">
+										<h3 class="col-10">Empresas</h3>
+										<span class="col-2"><i class="fas fa-angle-right"></i></span>
+									</a>
+								</div>
+							</div>
+
+							<div class="col-12 fondo-azul dona-box-link mb-3 p-0">
+								<div class="fondo-negro mt-5 py-6 pl-5 dona-box-link-a">
+									<a class="row justify-content-between align-items-center" href="">
+										<h3 class="col-10">Donacion economica</h3>
+										<span class="col-2"><i class="fas fa-angle-right"></i></span>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</sectiones>
+		</section>
+
+		<section class="proyectos p-5">
 			<div class="container-fluid">
-				<h1 class="text-center">¿Quiénes somos?</h1>
-				<p class="text-center w-50 m-auto">
-					Somos una organización social sin fines de lucro fundada en 2010 en la ciudad de Córdoba, Argentina. Trabajamos en un ámbito abierto y de acción 
-					colectiva para promover el desarrollo, la inclusión y la organización social. Nuestra fundación articula su trabajo con otras organizaciones de la 
-					sociedad, organismos gubernamentales, instituciones y voluntarixs; fortaleciendo alianzas con distintas organizaciones del sector público, privado 
-					y social para impulsar acciones que promuevan una mejor calidad de vida.
-				</p>
+				<h2 class="d-none d-lg-block my-5 text-center text-xl-left">Nuestros proyectos</h2>
+				<h2 class="my-5 text-center d-lg-none">Proyectos</h2>
 
-				<div class="row w-100 justify-content-center my-5 mx-0 p-0">
-					<div class="col-auto contador my-3">
-						<i class="fa fa-graduation-cap" aria-hidden="true"></i>
-						<div id="Egresados" class="valor" data-target="600" data-init ="0">0</div>
-						<p>egresados en 27 oficios</p>
-					</div>
-
-					<div class="col-auto contador my-3">
-						<i class="fa fa-user" aria-hidden="true"></i>
-						<div id="Ninos" class="valor" data-target="150" data-init="0">0</div>
-						<p>niños recibieron acompañamiento integral</p>
-					</div>
-
-					<div class="col-auto contador my-3">
-						<i class="fa fa-users" aria-hidden="true"></i>
-						<div id="Familias" class="valor" data-target="200" data-init="0">0</div>
-						<p>familias que reciben el programa Mas leche, mas proteínas</p>
-					</div>
-
-					<div class="col-auto contador my-3">
-						<i class="fa fa-plus-square" aria-hidden="true"></i>
-						<div id="Vacunacion" class="valor" data-target="600" data-init="0">0</div>
-						<p>personas completaron su vacunación</p>
-					</div>
-
-					<div class="col-auto contador my-3">
-						<i class="fas fa-utensils"></i>
-						<div id="Alimentos" class="valor" data-target="500" data-init="0">0</div>
-						<p>personas recibieron alimentos gracias a los programas</p>
-					</div>
-				</div>
-
-				<div class="nosotros-items py-5">
-					<div class="container-fluid">
-						<div class="row align-items-center p-5">
-							<div class="col-6 px-4">
-
-								<h2 class="text-center">Nosotrxs</h2>
-
-								<p class="text-center m-auto">
-									La entidad Fundación Vicentina fue fundada en el año 2010 en la ciudad de Córdoba, Argentina.
-									Desde sus inicios ha estado compuesta en su totalidad por mujeres y, actualmente, tanto en el consejo administrativo, como la mayoría de voluntarios e integrantes de las diferentes áreas también son mujeres: algunas estudiantes y egresadas de la Licenciatura en Relaciones Internacionales entre otras carreras también como diseño. A su vez hemos incluido a otros profesionales tanto varones como disidentes para cubrir diferentes áreas.  
-									Trabajamos en un ámbito abierto y de acción colectiva para promover los derechos humanos, el desarrollo, la inclusión y la organización social. Articulamos con otras organizaciones de la sociedad civil, organismos gubernamentales e instituciones con el fin de impulsar acciones y proyectos que permitan una mejor calidad de vida.
-								</p>
-							</div>
-
-							<div class="row col-6 justify-content-center">
-								<a class="col-5 items align-items-center m-2" href="nosotrxs/nuestra-historia.html">
-									<div class="col-12">
-										<h3 class="text-white text-center">Nuestra Historia</h3>
-									</div>
-								</a>
-
-								<a class="col-5 items-l align-items-center m-2" href="nosotrxs/equipo.html">
-									<div class="col-12">
-										<h3 class="text-white text-center">Nuestro Equipo</h3>
-									</div>
-								</a>
-
-								<a class="col-5 items align-items-center m-2" href="nosotrxs/valores.html">
-									<div class="col-12">
-										<h3 class="text-white text-center">Objetivos<br>específicos</h3>
-									</div>
-								</a>
-
-								<a class="col-5 items-l align-items-center m-2" href="nosotrxs/portal-de-transparencia.html">
-									<div class="col-12">
-										<h3 class="text-white text-center">Portal de transparencia</h3>
-									</div>
-								</a>
-
-								<a class="col-5 items align-items-center m-2" href="nosotrxs/valores.html">
-									<div class="col-12">
-										<h3 class="text-white text-center">Valores</h3>
-									</div>
-								</a>
-
-								<a class="col-5 items-l align-items-center m-2" href="nosotrxs/mision&vision.html">
-									<div class="col-12">
-										<h3 class="text-white text-center">Misión y Visión</h3>
-									</div>
-								</a>
-							</div>
-						</div>		
-					</div>
-				</div>
-
-				<iframe class="w-100 my-5" style="height: 100vh" src="https://www.youtube.com/embed/fbvSC8X016I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-			</div>
-
-			<div class="caja-colaboradores">
-				<h2 class="text-center my-5">Avalan nuestros proyectos</h2>
-
-				<div class="colaboradores my-5" id="colaboradores">
-					<div class="colaborador">
-						<img src="img/colaboradores/gob1.png">
-					</div>
-					<div class="colaborador">
-						<img src="img/colaboradores/gob2.png">
-					</div>
-					<div class="colaborador">
-						<img src="img/colaboradores/gob3.png">
-					</div>
-					<div class="colaborador">
-						<img src="img/colaboradores/gob4.png">
-					</div>
-					<div class="colaborador">
-						<img src="img/colaboradores/gob5.png">
-					</div>
-					<div class="colaborador">
-						<img src="img/colaboradores/gob6.png">
-					</div>
-					<div class="colaborador">
-						<img src="img/colaboradores/gob7.png">
-					</div>
-					<div class="colaborador">
-						<img src="img/colaboradores/gob8.png">
-					</div>
-					<div class="colaborador">
-						<img src="img/colaboradores/gob9.png">
-					</div>
-					<div class="colaborador">
-						<img src="img/colaboradores/gob10.png">
-					</div>
-					<div class="colaborador">
-						<img src="img/colaboradores/gob11.png">
-					</div>
-					<div class="colaborador">
-						<img src="img/colaboradores/gob12.png">
-					</div>
-					<div class="colaborador">
-						<img src="img/colaboradores/gob13.png">
-					</div>
-					<div class="colaborador">
-						<img src="img/colaboradores/gob14.png">
-					</div>
-					<div class="colaborador">
-						<img src="img/colaboradores/gob15.png">
-					</div>
-					<div class="colaborador">
-						<img src="img/colaboradores/gob16.png">
-					</div>
-					<div class="colaborador">
-						<img src="img/colaboradores/gob17.png">
-					</div>
-				</div>
-			</div>
-
-			<div class="caja-colaboradores">
-				<h2 class="text-center my-5">Agradecemos por formar parte de nuestros proyectos</h2>
-
-				<div class="colaboradores my-5" id="apoyo">
-					<div class="colaborador">
-						<img src="img/colaboradores/colaborador (1).png">
-					</div>
-					<div class="colaborador">
-						<img src="img/colaboradores/colaborador (2).png">
-					</div>
-					<div class="colaborador">
-						<img src="img/colaboradores/colaborador (3).png">
-					</div>
-					<div class="colaborador">
-						<img src="img/colaboradores/colaborador (4).png">
-					</div>
-					<div class="colaborador">
-						<img src="img/colaboradores/colaborador (5).png">
-					</div>
-					<div class="colaborador">
-						<img src="img/colaboradores/colaborador (6).png">
-					</div>
-					<div class="colaborador">
-						<img src="img/colaboradores/colaborador (7).png">
-					</div>
-					<div class="colaborador">
-						<img src="img/colaboradores/colaborador (8).png">
-					</div>
-					<div class="colaborador">
-						<img src="img/colaboradores/colaborador (9).png">
-					</div>
-					<div class="colaborador">
-						<img src="img/colaboradores/colaborador (10).png">
-					</div>
-					<div class="colaborador">
-						<img src="img/colaboradores/colaborador (11).png">
-					</div>
-					<div class="colaborador">
-						<img src="img/colaboradores/colaborador (12).png">
-					</div>
-					<div class="colaborador">
-						<img src="img/colaboradores/colaborador (13).png">
-					</div>
-					<div class="colaborador">
-						<img src="img/colaboradores/colaborador (14).png">
-					</div>
-					<div class="colaborador">
-						<img src="img/colaboradores/colaborador (15).png">
-					</div>
-					<div class="colaborador">
-						<img src="img/colaboradores/colaborador (16).png">
-					</div>
-					<div class="colaborador">
-						<img src="img/colaboradores/colaborador (17).png">
-					</div>
-					<div class="colaborador">
-						<img src="img/colaboradores/colaborador (18).png">
-					</div>
-					<div class="colaborador">
-						<img src="img/colaboradores/colaborador (19).png">
-					</div>
-					<div class="colaborador">
-						<img src="img/colaboradores/colaborador (20).png">
-					</div>
-					<div class="colaborador">
-						<img src="img/colaboradores/colaborador (21).png">
-					</div>
-					<div class="colaborador">
-						<img src="img/colaboradores/colaborador (22).png">
-					</div>
-					<div class="colaborador">
-						<img src="img/colaboradores/colaborador (23).png">
-					</div>
-					<div class="colaborador">
-						<img src="img/colaboradores/colaborador (24).png">
-					</div>
-					<div class="colaborador">
-						<img src="img/colaboradores/colaborador (25).png">
-					</div>
-					<div class="colaborador">
-						<img src="img/colaboradores/colaborador (26).png">
-					</div>
-					<div class="colaborador">
-						<img src="img/colaboradores/colaborador (27).png">
-					</div>
-					<div class="colaborador">
-						<img src="img/colaboradores/colaborador (28).png">
-					</div>
-				</div>
-			</div>
-		</section>
-
-		<section class="proyectos">
-			<div class="container">
-
-				<h2 class="text-center">Nuestros Proyectos</h2>
-				<p class="text-center w-50 m-auto">
-					Desarrollamos competencias y capacidades personales que promuevan la autogestión comunitaria.
-				</p>
-
-				<div class="row my-5 justify-content-between">
-					<a href="proyectos/salud.html" class="col-3 proyecto p-0 m-3">
-						<img src="img/iconosal-negro.png">
-
-						<div class="p-titulo">
-							<h4>Salud</h4>
-						</div>
-					</a>
-
-					<a href="proyectos/cultura.html" class="col-3 proyecto p-0 m-3">
-						<img src="img/iconocult-negro.png">
-						
-						<div class="p-titulo">
-							<h4>Cultura</h4>
-						</div>
-					</a>
-
-					<a href="proyectos/infancia.html" class="col-3 proyecto p-0 m-3">
-						<img src="img/iconoinf-negro.png">
-						
-						<div class="p-titulo">
-							<h4>Primera<br>infancia</h4>
-						</div>
-					</a>
-
-					<a href="proyectos/economia.html" class="col-3 proyecto p-0 m-3">
-						<img src="img/iconoecon-negro.png">
-						
-						<div class="p-titulo">
-							<h4>Economía<br>popular</h4>
-						</div>
-					</a>
-
-					<a href="proyectos/ambiente.html" class="col-3 proyecto p-0 m-3">
-						<img src="img/iconomedio-negro.png">
-						
-						<div class="p-titulo">
-							<h4>Medio<br>ambiente</h4>
-						</div>
-					</a>
-
-					<a href="proyectos/oficio.html" class="col-3 proyecto p-0 m-3">
-						<img src="img/iconocap-negro.png">
-						
-						<div class="p-titulo">
-							<h4>Capacitación<br>en oficios</h4>
-						</div>
-					</a>
-				</div>
-				
-				<hr>
-
-			</div>
-		</section>
-
-		<section class="publicidad my-5">
-			<div class="row fondo-azul align-items-center m-0">
-				<div class="col-8 p-0">
-					<img class="w-100" src="img/p001.jpeg">
-				</div>
-
-				<div class="col-4">
-					<div class="texto-publicidad text-center">
-						<h3 class="display-3">Donación en especie</h3>
-						<p class="my-5">
-							Sus aportes y contribuciones son indispensables para el sostenimiento, crecimiento y fortalecimiento de nuestra comunidad. 
-						</p>
-
-						<div class="boton-verde">
-							<a href="pag/donar.html">Donar ahora</a>						
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
-
-		<section class="noticias" id="Noticias">
-			<div class="container">
-
-				<h2 class="text-center">Noticias</h2>
-
-				<p class="text-center w-50 m-auto">
-					Te contamos las ultimas novedades sobre nuestras actividades.
-				</p>
+				<p class="text-center text-xl-left">Desarrollamos competencias y capacidades personales que promuevan la autogestión comunitaria.</p>
 
 				<div class="row my-5">
-					<div class="col-4">						
-						<a href="#">
-							<img class="img-fluid my-3" src="img/noticias/005.jpg">
-							<time>junio 29, 2021</time>
-							<h3>Participación del #FITSdigital2021</h3>
-						</a>
+					<a class="col-12 col-md-6 col-lg-4 proyecto p-lg-5 my-3 text-center text-xl-left" href="">
+						<i class="far fa-heart"></i>
+						<h4 class="my-4 text-uppercase">Salud</h4>
+						<p class="d-none d-xl-block">
+							Lorem, ipsum dolor, sit amet consectetur adipisicing elit. Repellendus delectus eveniet, expedita magnam perspiciatis odit sunt, atque totam rerum culpa officia sapiente placeat maxime et cum architecto corporis repellat minima.
+						</p>
+					</a>
 
-						<button class="btn-compartir" associated="n01"><i class="fas fa-share-alt"></i></button>
-						
-						<div id="n01" class="compartir mt-4">
-							<a id="facebook" href=""><i class="fab fa-facebook-square"></i> Compartir</a>
+					<a class="col-12 col-md-6 col-lg-4 proyecto p-lg-5 my-3 text-center text-xl-left" href="">
+						<i class="fas fa-theater-masks"></i>
+						<h4 class="my-4 text-uppercase">Cultura</h4>
+						<p class="d-none d-xl-block">
+							Lorem, ipsum dolor, sit amet consectetur adipisicing elit. Repellendus delectus eveniet, expedita magnam perspiciatis odit sunt, atque totam rerum culpa officia sapiente placeat maxime et cum architecto corporis repellat minima.
+						</p>
+					</a>
 
-							<a id="twitter" href=""><i class="fab fa-twitter-square"></i> Compartir</a>
-						</div>
+					<a class="col-12 col-md-6 col-lg-4 proyecto p-lg-5 my-3 text-center text-xl-left" href="">
+						<i class="fas fa-cubes"></i>
+						<h4 class="my-4 text-uppercase">Primero <br>Infancia</h4>
+						<p class="d-none d-xl-block">
+							Lorem, ipsum dolor, sit amet consectetur adipisicing elit. Repellendus delectus eveniet, expedita magnam perspiciatis odit sunt, atque totam 
+						</p>
+					</a>
+
+					<a class="col-12 col-md-6 col-lg-4 proyecto p-lg-5 my-3 text-center text-xl-left" href="">
+						<i class="fas fa-dollar-sign"></i>
+						<h4 class="my-4 text-uppercase">Economia <br>Popular</h4>
+						<p class="d-none d-xl-block">
+							Lorem, ipsum dolor, sit amet consectetur adipisicing elit. Repellendus delectus eveniet, expedita magnam perspiciatis odit sunt, atque totam rerum culpa officia sapiente placeat.
+						</p>
+					</a>
+
+					<a class="col-12 col-md-6 col-lg-4 proyecto p-lg-5 my-3 text-center text-xl-left" href="">
+						<i class="fas fa-tree"></i>
+						<h4 class="my-4 text-uppercase">Medio <br>Ambiente</h4>
+						<p class="d-none d-xl-block">
+							Lorem, ipsum dolor, sit amet consectetur adipisicing elit. Repellendus delectus eveniet, expedita magnam perspiciatis odit sunt, atque totam rerum culpa officia sapiente placeat maxime et cum architecto corporis repellat minima.
+						</p>
+					</a>
+
+					<a class="col-12 col-md-6 col-lg-4 proyecto p-lg-5 my-3 text-center text-xl-left" href="">
+						<i class="fas fa-graduation-cap"></i>
+						<h4 class="my-4 text-uppercase">Capacitacion <br>en Oficios</h4>
+						<p class="d-none d-xl-block">
+							Lorem, ipsum dolor, sit amet consectetur adipisicing elit. 
+						</p>
+					</a>
+				</div>
+			</div>
+		</section>
+
+		<section class="noticias p-5">
+			<div class="container-fluid">
+				<div class="row align-items-center">
+					<div class="col-12 col-xl-6">
+						<h2 class="text-center text-xl-left">Noticias</h2>
 					</div>
 
-					<div class="col-4">						
-						<a href="#">
-							<img class="img-fluid my-3" src="img/noticias/006.jpeg">
-							<time>julio 11, 2021</time>
-							<h3>Marketing para una organización sin fines de lucro ¿dos conceptos excluyentes?</h3>
-						</a>
-
-						<button class="btn-compartir" associated="n02"><i class="fas fa-share-alt"></i></button>
-						
-						<div id="n02" class="compartir mt-4">
-							<a id="facebook" href=""><i class="fab fa-facebook-square"></i> Compartir</a>
-
-							<a id="twitter" href=""><i class="fab fa-twitter-square"></i> Compartir</a>
+					<div class="d-none d-xl-block col-6 text-right">
+						<div class="boton-celeste">
+							<a href="">Ver más</a>
 						</div>
 					</div>
+				</div>
 
-					<div class="col-4">						
-						<a href="#">
-							<img class="img-fluid my-3" src="img/noticias/007.jpeg">
-							<time>julio 11, 2021</time>
-							<h3>Prácticas que el futuro de nuestro medio ambiente agradece</h3>
+				<div class="row my-5 justify-content-center align-content-between">
+					<div class="col-12 col-xl-4 p-0 p-xl-2 mb-3 d-flex align-content-stretch"> <a href=""></a>
+						<a href="" class="noticia p-4">
+							<img class="mb-3" src="img/noticias/006.jpg">
+							<time class="text-muted">11-jul.-2021</time>
+							<h3 class="texto-negro my-3">Marketing para una organización sin fines de lucro ¿dos conceptos excluyentes?</h3>
+							<p class="d-none d-xl-block">¿Qué importancia tiene diseñar un plan estratégico de comunicación y marketing para cualquier tipo de organización?</p>
 						</a>
+					</div>
+					<div class="col-12 col-xl-4 p-0 p-xl-2 mb-3 d-flex align-content-stretch">
+						<a href="" class="noticia p-4">
+							<img class="mb-3" src="img/noticias/007.jpg">
+							<time class="text-muted">11-jul.-2021</time>
+							<h3 class="texto-negro my-3">Prácticas que el futuro de nuestro medio ambiente agradece</h3>
+							<p class="d-none d-xl-block">Como sociedad, nuestras vidas cada vez están más perjudicadas por la contaminación, el cambio climático, el calentamiento global, y todas las consecuencias que trae aparejada la destrucción del medio ambiente.</p>
+						</a>
+					</div>
+					<div class="col-12 col-xl-4 p-0 p-xl-2 mb-3 d-flex align-content-stretch">
+						<a href="" class="noticia p-4">
+							<img class="mb-3" src="img/noticias/005.jpg">
+							<time class="text-muted">29-jun.-2021</time>
+							<h3 class="texto-negro my-3">Participación del #FITSdigital2021</h3>
+							<p class="d-none d-xl-block">Festival de Innovación y Tecnología Social.</p>
+						</a>
+					</div>
+				</div>
 
-						<button class="btn-compartir" associated="n03"><i class="fas fa-share-alt"></i></button>
-						
-						<div id="n03" class="compartir mt-4">
-							<a id="facebook" href=""><i class="fab fa-facebook-square"></i> Compartir</a>
-
-							<a id="twitter" href=""><i class="fab fa-twitter-square"></i> Compartir</a>
-						</div>
+				<div class="d-xl-none text-center">
+					<div class="boton-celeste">
+						<a href="">Ver más</a>
 					</div>
 				</div>
 			</div>
 		</section>
-	</section>
 
-	<footer class="footer" id="Footer">
-		<div class="footer p-5">
-			<div class="row my-4 align-items-center">
-				<div class="row col-6 p-5 align-items-center">
-					<div class="col-12 row footer-menu align-items-center mt-4">
-						<div class="col-4">
+		<section class="colaboradores my-5">
+			<div class="container-fluid">
+
+				<h2 class="text-center my-5">Avalan nuestros proyectos</h2>
+
+				<div class="row align-items-center justify-content-center p-3">
+
+					<div class="col-4 col-md-2 my-2">
+						<img class="w-100" src="img/colaboradores/g (2).jpg" alt="">
+					</div>
+
+					<div class="col-4 col-md-2 my-2">
+						<img class="w-100" src="img/colaboradores/g (3).jpg" alt="">
+					</div>
+
+					<div class="col-4 col-md-2 text-center my-2">
+						<img class="w-50" src="img/colaboradores/g (1).jpg" alt="">
+					</div>
+
+					<div class="col-4 col-md-2 my-2">
+						<img class="w-100" src="img/colaboradores/g (3).png" alt="">
+					</div>
+
+					<div class="col-4 col-md-2 my-2">
+						<img class="w-100" src="img/colaboradores/g (4).jpg" alt="">
+					</div>
+
+					<div class="col-4 col-md-2 my-2">
+						<img class="w-100" src="img/colaboradores/g (1).png" alt="">
+					</div>
+
+					<div class="col-4 col-md-2 my-2">
+						<img class="w-100" src="img/colaboradores/g (2).png" alt="">
+					</div>
+
+					<div class="col-4 col-md-2 my-2">
+						<img class="w-100" src="img/colaboradores/g (4).png" alt="">
+					</div>
+
+					<div class="col-4 col-md-2 my-2">
+						<img class="w-100" src="img/colaboradores/g (5).png" alt="">
+					</div>
+
+					<div class="col-4 col-md-2 my-2">
+						<img class="w-100" src="img/colaboradores/g (6).png" alt="">
+					</div>
+
+
+					<div class="col-4 col-md-2 my-2">
+						<img class="w-100" src="img/colaboradores/g (7).png" alt="">
+					</div>
+
+					<div class="col-4 col-md-2 my-2">
+						<img class="w-100" src="img/colaboradores/g (8).png" alt="">
+					</div>
+
+					<div class="col-4 col-md-2 my-2">
+						<img class="w-100" src="img/colaboradores/g (9).png" alt="">
+					</div>
+
+					<div class="col-4 col-md-2 my-2">
+						<img class="w-100" src="img/colaboradores/g (10).png" alt="">
+					</div>
+
+					<div class="col-4 col-md-2 my-2">
+						<img class="w-100" src="img/colaboradores/g (11).png" alt="">
+					</div>
+
+					<div class="col-4 col-md-2 my-2">
+						<img class="w-100" src="img/colaboradores/g (12).png" alt="">
+					</div>
+
+					<div class="col-4 col-md-2 my-2">
+						<img class="w-100" src="img/colaboradores/g (5).jpg" alt="">
+					</div>
+
+					<div class="col-4 col-md-2 my-2">
+						<img class="w-100" src="img/colaboradores/g (16).png" alt="">
+					</div>
+
+					<div class="col-4 col-md-2 my-2">
+						<img class="w-100" src="img/colaboradores/g (14).png" alt="">
+					</div>
+
+					<div class="col-4 col-md-2 my-2">
+						<img class="w-100" src="img/colaboradores/g (15).png" alt="">
+					</div>
+
+				</div>
+
+				<div class="text-center my-4">
+					<p>Si pertenecés a una empresa y querés donar o colaborar <a href="#">¡enterate cómo!</a></p>
+				</div>
+			</div>
+		</section>
+
+		<footer class="footer fondo-azul py-7 px-4">
+			<div class="container-fluid">
+				<div class="row">
+					<div class="d-none d-xl-block col-3 text text-center">
+						<img class="w-75" src="img/LOGOFINAL-en blanco.png" alt="">
+					</div>
+
+					<div class="row col-12 col-xl-9 footer-menu">
+
+						<div class="d-none d-md-block col-6 col-lg-3 mb-5">
 							<h6 class="text-white">QUIÉNES SOMOS</h6>
 							<a href="nosotrxs/nosotrxs.html">NOSOTROS</a>
 							<a href="nosotrxs/mision&vision.html">MISIÓN Y VISIÓN</a>
@@ -578,7 +552,7 @@
 							<a href="nosotrxs/portal-de-transparencia.html">PORTAL DE TRANSPARENCIA</a>
 						</div>
 
-						<div class="col-4">
+						<div class="d-none d-md-block col-6 col-lg-3 mb-5">
 							<h6 class="text-white">PROYECTOS</h6>
 							<a href="proyectos/salud.html">SALUD</a>
 							<a href="proyectos/cultura.html">CULTURA</a>
@@ -588,84 +562,53 @@
 							<a href="proyectos/oficio.html">CAPACITACION EN OFICIOS</a>
 						</div>
 
-						<div class="col-4">
-							<a class="scroll-suave" href="pag/empresas.html">EMPRESAS</a>
-							<a class="scroll-suave" href="#Noticias">NOTICIAS</a>
-							<a class="scroll-suave" href="pag/colabora-con-nosotros.html">COLABORA CON NOSOTROS</a>
+						<div class="col-12 col-md-6 col-lg-3 mb-5">
+							<h6 class="text-white">CONTACTOS</h6>
+
+							<p><i class="fas fa-search-location"></i>  9 de julio 1359 , CP 5000. Cordoba, Argentina</p>
+
+							<p><i class="fas fa-envelope-square"></i>  fund.vicentina@gmail.com</p>
+
+							<p><i class="fab fa-whatsapp"></i>  0351-152721536</p>
+						</div>
+
+						<div class="col-12 col-md-6 col-lg-3 mb-5 redes-sociales">
+							<h6 class="text-white">REDES SOCIALES</h6>
+							<a href="https://www.facebook.com/fundacionvicentina">
+								<i class="fab fa-facebook-f"></i>
+							</a>
+							<a href="https://instagram.com/fundacion.vicentina?igshid=yv7v1ga09194">
+								<i class="fab fa-instagram"></i>
+							</a>
+							<a href="https://twitter.com/fundvicentina">
+								<i class="fab fa-twitter"></i>
+							</a>
+							<a href="https://www.linkedin.com/in/fundaci%C3%B3n-vicentina-57b473211">
+								<i class="fab fa-linkedin-in"></i>
+							</a>
+							<a href="https://www.youtube.com/channel/UCo3pu5ilrlZIfPg908wej4g">
+								<i class="fab fa-youtube"></i>
+							</a>
+							<a href="https://fundvicentina.blogspot.com/?view=classic">
+								<i class="fab fa-blogger-b"></i>
+							</a>
 						</div>
 					</div>
 				</div>
 
-				<div class="col-6 p-5">
-					<h2>Contacto</h2>
+				<hr>
 
-					<p>
-						Si querés saber más de nuestra fundación, como colaborar, o tenés alguna duda, contactate con nosotros.
-					</p>
-					<form action="../php/contacto.php" method="POST">
-						<div class="row my-3">
-							<div class="col-6 input">
-								<input type="text" name="nombre" placeholder="Nombre" id="nombre">
-								<p class="error">Por favor, escriba su nombre.</p>
-							</div>
-							<div class="col-6 input">
-								<input type="email" name="email" placeholder="Tu correo" id="email">
-								<p class="error">Por favor, escriba su correo</p>
-							</div>
-						</div>
-						
-						<div class="subject my-3">
-							<input type="text" name="asunto" placeholder="Asunto" id="asunto">
-							<p class="error">Por favor, escriba su asunto.</p>
-						</div>
-						<div class="textarea my-3">
-							<textarea name="mensaje" placeholder="Mensaje" id="mensaje"></textarea>
-							<p class="error">Por favor escriba su mensaje</p>
-						</div>
-						<div class="boton-verde">
-							<input id="Enviar" type="submit" name="enviar" value="Send">
-						</div>
-					</form>
-				</div>
-
-				<div class="col-12 redes-sociales text-center my-5">
-					<a href="https://www.facebook.com/fundacionvicentina">
-						<i class="fab fa-facebook-f"></i>
-					</a>
-					<a href="https://instagram.com/fundacion.vicentina?igshid=yv7v1ga09194">
-						<i class="fab fa-instagram"></i>
-					</a>
-					<a href="https://twitter.com/fundvicentina">
-						<i class="fab fa-twitter"></i>
-					</a>
-					<a href="https://www.linkedin.com/in/fundaci%C3%B3n-vicentina-57b473211">
-						<i class="fab fa-linkedin-in"></i>
-					</a>
-					<a href="https://www.youtube.com/channel/UCo3pu5ilrlZIfPg908wej4g">
-						<i class="fab fa-youtube"></i>
-					</a>
-					<a href="https://fundvicentina.blogspot.com/?view=classic">
-						<i class="fab fa-blogger-b"></i>
-					</a>
+				<div>
+					<p class="text-center">Fundación Vicentina Argentina.</p>
+					<p class="text-center">Copyright © 2021. All rights reserved.</p>
 				</div>
 			</div>
-		</div>
+		</footer>
 
-		<p class="text-center">Fundación Vicentina Argentina.</p>
-		<p class="text-center">Copyright © 2021. All rights reserved.</p>
-	</div>
-</footer>
-
-
-<script src="js/jquery-3.6.0.min.js"></script>
-<script src="js/popper.js"></script>
-<script src="bootstrap/js/bootstrap.min.js"></script>
-<script src="js/btn-slide.js"></script>
-<script src="js/bg-color.js"></script>
-<script src="js/scroll-suave.js"></script>
-<script src="js/contador.js"></script>
-<script src="js/compartir.js"></script>
-<script src="js/desfile.js"></script>
-<script src="js/desfilee.js"></script>
-</body>
-</html>
+		<script src="js/jquery-3.6.0.min.js"></script>
+		<script src="js/popper.js"></script>
+		<script src="bootstrap/js/bootstrap.min.js"></script>
+		<script src="js/scroll-suave.js"></script>
+		<script src="js/contador.js"></script>
+	</body>
+	</html>
