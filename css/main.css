@@ -55,6 +55,10 @@ p {
 	background: #828282;
 }
 
+.fondo-blanco-t {
+	background: rgba(255,255,255,0.8);
+}
+
 .texto-azul {
 	color: #538DBE;
 }
@@ -74,7 +78,7 @@ p {
 	text-decoration: none;
 }
 
-.boton-azul a {
+.boton-azul a , .boton-azul input {
 	padding: 15px 50px;
 	background: #538DBE;
 	color: white;
@@ -109,6 +113,18 @@ p {
 	color: white;
 }
 
+.boton-amarillo-small a {
+	padding: 5px 40px;
+	background: #E7C754;
+	color: white;
+	border-radius: 10px;
+}
+
+.boton-amarillo-small a:hover {
+	text-decoration: none;
+	color: white;
+}
+
 .align-content-between {
 	align-content: space-between;
 }
@@ -117,10 +133,23 @@ p {
 	align-content: flex-start;
 }
 
-/*Main*/
+.my-8 {
+	margin-bottom: 100px;
+	margin-top: 100px;
+}
 
-.main {
-	margin-top: 210px;
+.p-7 {
+	padding: 80px;
+}
+
+.py-6 {
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+
+.py-7 {
+	padding-top: 80px;
+	padding-bottom: 80px;
 }
 
 /*Boton*/
@@ -209,6 +238,43 @@ p {
 
 @media (max-width: 1200px) {
 	.pop-up {
+		display: none;
+	}
+}
+
+/*Navegador*/
+
+.navegador a {
+	color: white;
+	font-weight: 600;
+}
+
+.nav-box-d a {
+	color: #454543;
+}
+
+.nav-social a {
+	font-size: 20px;
+}
+
+
+.navegador-m i {
+	font-size: 40px;
+	color: white;
+}
+
+.navegador-m img {
+	width: 70px;
+}
+
+@media (max-width: 1439px) {
+	.navegador {
+		display: none;
+	}
+}
+
+@media (min-width: 1440px) {
+	.navegador-m {
 		display: none;
 	}
 }
@@ -383,18 +449,62 @@ p {
 	font-weight: 400;
 }
 
-.p-7 {
-	padding: 80px;
+/*Contacto*/
+
+.contacto {
+	background-image: url("../img/contacto.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
 }
 
-.py-6 {
-	padding-top: 60px;
-	padding-bottom: 60px;
+.contacto form input[type="text"] , .contacto form input[type="email"] {
+	width: 100%;
+	outline: none;
+	border: none;
+	background: none;
+	padding: 10px;
+	border: 1px solid #0089E0;
+	color: #444;
+	border-radius: 10px;
 }
 
-.py-7 {
-	padding-top: 80px;
-	padding-bottom: 80px;
+.contacto form textarea {
+	max-width: 100%;
+	min-width: 100%;
+	max-height: 200px;
+	min-height: 200px;
+	background: none;
+	padding: 10px;
+	outline: none;
+	border: none;
+	border: 1px solid #0089E0;
+	color: #444;
+	border-radius: 10px;
+}
+
+.error {
+	color: #FC5439;
+	font-size: 8px;
+	display: none;
+}
+
+.contacto form input[type="submit"] {
+	text-decoration: none;
+	color: #0089E0;
+	padding: 10px;
+	border: 1px solid #0089E0;
+	font-weight: 600;
+	transition: all .4s ease;
+	background: none;
+	width: 100px;
+	border-radius: 10px;
+}
+
+.contacto form input[type="submit"]:hover {
+	color: #E0D3C2;
+	border:1px solid #2471A3;
+	background: #0089E0;
 }
 
 /*Footer*/
