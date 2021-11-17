@@ -257,6 +257,15 @@ p {
 	font-size: 20px;
 }
 
+/*Navegador movil*/
+
+.navegador-m  {
+	width: 100%;
+	position: fixed;
+	z-index: 100;
+	top: 0;
+	left: 0;
+}
 
 .navegador-m i {
 	font-size: 40px;
@@ -267,9 +276,50 @@ p {
 	width: 70px;
 }
 
+#Btn-menu-movil {
+	cursor: pointer;
+}
+
+.menu-movil {
+	box-shadow: 0 0 5px rgb(73,73,73);
+	display: none;
+	background: white;
+}
+
+.menu-movil ul {
+	width: 100%;
+}
+
+.menu-movil li {
+	list-style: none;
+	border-bottom: 1px solid rgba(204,204,204,0.5);
+	padding: 10px;
+}
+
+.menu-movil li:hover {
+	background: #538DBE;
+}
+
+.menu-movil li:hover a {
+	color: white;
+}
+
+.menu-movil li a {
+	color: #454543;
+	font-weight: 600;
+	text-decoration: none;
+	width: 100%;
+}
+
+/*Navegador responsive*/
+
 @media (max-width: 1439px) {
 	.navegador {
 		display: none;
+	}
+
+	.main {
+		margin-top: 120px;
 	}
 }
 
