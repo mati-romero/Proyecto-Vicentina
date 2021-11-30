@@ -1,3 +1,7 @@
 img {
 	width: 100%;
 }
+
+.site i, .site p {
+	 font-size: 50px;
+}
