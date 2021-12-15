@@ -283,11 +283,12 @@ p {
 .menu-movil {
 	box-shadow: 0 0 5px rgb(73,73,73);
 	display: none;
-	background: white;
+	background: rgba(255,255,255,0.8);
 }
 
 .menu-movil ul {
 	width: 100%;
+	background: none;
 }
 
 .menu-movil li {

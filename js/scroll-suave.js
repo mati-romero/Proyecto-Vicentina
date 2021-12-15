@@ -19,7 +19,7 @@ $(window).on('scroll', function () {
 
 });
 
-// Scroll Suave
+// Scroll Up
 
 $('a.volver-arriba').on('click', function (event) {
     event.preventDefault();
@@ -37,7 +37,8 @@ $(document).ready(function (argument) {
 	$('a.scroll-suave').on('click', function (event) {
     	event.preventDefault();
     	var seccionOffsetTop = $($(this).attr('href')).offset().top - 20;
-    	$('html, body').stop().animate({scrollTop: seccionOffsetTop}, 900);
+    	$('html, body').stop().animate({scrollTop: seccionOffsetTop}, 900,function() {
+            $("#Menu-movil").slideUp(1000);
+        });
 	});
-
 });
