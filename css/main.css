@@ -364,7 +364,7 @@ p {
 }
 
 .items , .items-l {
-	background: #E7C754;
+	background: #538DBE;
 	padding: 20px;
 	font-family: inherit;
 	transition: all 0.5s ease;
@@ -396,7 +396,7 @@ p {
 }
 
 .contador i {
-	color: rgb(24,155,211);
+	color: #538DBE;
 	font-size: 50px;
 }
 
@@ -449,7 +449,7 @@ p {
 .proyectos a:hover {
 	text-decoration: none;
 	border-radius: 15px;
-	background: #8AB57D;
+	background: #538DBE;
 	color: white;
 }
 
@@ -515,7 +515,7 @@ p {
 	border: none;
 	background: none;
 	padding: 10px;
-	border: 1px solid #0089E0;
+	border: 1px solid #538DBE;
 	color: #444;
 	border-radius: 10px;
 }
@@ -529,7 +529,7 @@ p {
 	padding: 10px;
 	outline: none;
 	border: none;
-	border: 1px solid #0089E0;
+	border: 1px solid #538DBE;
 	color: #444;
 	border-radius: 10px;
 }
@@ -542,9 +542,9 @@ p {
 
 .contacto form input[type="submit"] {
 	text-decoration: none;
-	color: #0089E0;
+	color: #538DBE;
 	padding: 10px;
-	border: 1px solid #0089E0;
+	border: 1px solid #538DBE;
 	font-weight: 600;
 	transition: all .4s ease;
 	background: none;
@@ -555,7 +555,7 @@ p {
 .contacto form input[type="submit"]:hover {
 	color: #E0D3C2;
 	border:1px solid #2471A3;
-	background: #0089E0;
+	background: #538DBE;
 }
 
 /*Footer*/
