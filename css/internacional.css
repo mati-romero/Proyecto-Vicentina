@@ -5,3 +5,14 @@ img {
 .site i, .site p {
 	 font-size: 50px;
 }
+
+.boton-azul a , .boton-azul input {
+	padding: 15px 50px;
+	background: #538DBE;
+	color: white;
+	border-radius: 10px;
+}
+
+.boton-azul a:hover {
+	text-decoration: none;
+}
