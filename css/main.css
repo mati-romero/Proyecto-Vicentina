@@ -48,7 +48,7 @@ p {
 }
 
 .fondo-gris-claro {
-	background: #c4c4c4;
+	background: #b6b6b6;
 }
 
 .fondo-gris-oscuro {
@@ -345,11 +345,12 @@ p {
 
 .bannerTexto p {
 	padding: 30px;
-	background: rgba(83,141,190,0.8);
+	background: rgba(83,141,190,0.4);
 	color: white;
 	font-size: 30px;
 	text-shadow: 0.1em 0.1em 0.2em rgb(73,73,73);
 	font-weight: 400;
+	text-align: center;
 }
 
 /*Nosotros*/
@@ -496,7 +497,7 @@ p {
 
 .texto-publicidad p {
 	color: white;
-	font-size: 18px;
+	font-size: 20px;
 	font-weight: 400;
 }
 
