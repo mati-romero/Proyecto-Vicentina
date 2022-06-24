@@ -26,7 +26,7 @@
 		</a>
 	</div>
 
-	<!-- Pop Up 
+	<!-- Pop Up -->
 	<div class="pop-up">
 		<div class="pop-up-contenido">
 			<div class="text-right mb-4">
@@ -43,14 +43,38 @@
 			<img src="img/pop-up1 +logo.jpeg">
 
 			<div class="pop-up-text my-3">				
-				<h4 class="text-center text-uppercase text-white">Tu aporte nos estás ayudando a poder llegar a más lugares y a sostener más proyectos.</h4>
+				<h4 class="text-center text-uppercase text-white">Sus aportes y contribuciones son indispensables para el sostenimiento, crecimiento y fortalecimiento de nuestra comunidad.</h4>
 
 				<div class="pop-boton my-3">
 					<a href="pag/donar.html">Donar ahora</a>
 				</div>
 			</div>
 		</div>
-	</div> -->
+	</div>  
+
+	<div class="pop-up-m">
+		<div class="pop-up-contenido-m">
+
+			<div class="text-right mb-4">
+				<button class="btn-cerrar" type="button" onclick="closePopUpM()"><span aria-hidden="true" class="font-weight-bold">&times;</span></button>				
+			</div>
+
+			<script type="text/javascript">
+				function closePopUpM() {
+					document.querySelector(".pop-up-m").style.display = "none";
+					globalThis.popKey = false;
+				}
+			</script>
+
+			<div class="my-3">				
+				<h4 class="text-center text-uppercase text-white">Sus aportes y contribuciones son indispensables para el sostenimiento, crecimiento y fortalecimiento de nuestra comunidad.</h4>
+
+				<div class="boton-verde text-center my-3">
+					<a href="pag/donar.html">Donar ahora</a>
+				</div>
+			</div>
+		</div>
+	</div>
 
 	<!-- Navegador -->
 
@@ -68,10 +92,9 @@
 								QUIÉNES SOMOS
 							</a>
 							<div class="dropdown-menu nav-box-d" aria-labelledby="navbarDropdown">
-								<a class="dropdown-item" href="nosotrxs/valores.html">VALORES</a>
 								<a class="dropdown-item" href="nosotrxs/nuestra-historia.html">NUESTRA HISTORIA</a>
 								<a class="dropdown-item" href="nosotrxs/equipo.html">NUESTRO EQUIPO</a>
-								<a class="dropdown-item" href="nosotrxs/objetivos.html">OBJETIVOS ESPECIFICOS</a>
+								<a class="dropdown-item" href="nosotrxs/objetivos.html">NUESTROS OBJETIVOS</a>
 								<a class="dropdown-item" href="nosotrxs/portal-de-transparencia.html">PORTAL DE TRANSPARENCIA</a>
 							</div>
 						</li>
@@ -305,20 +328,17 @@
 						</div>
 
 						<div class="row col-12 col-xl-6 justify-content-between justify-content-xl-center">
+
+							<a class="col-12 col-xl-10 items align-items-center m-2" href="nosotrxs/objetivos.html">
+								<h3 class="text-white text-center">Nuestros Objetivos y Valores</h3>
+							</a>
+
 							<a class="col-12 col-xl-5 items align-items-center m-2" href="nosotrxs/nuestra-historia.html">
 								<h3 class="text-white text-center">Nuestra Historia</h3>
 							</a>
 
 							<a class="col-12 col-xl-5 items-l align-items-center m-2" href="nosotrxs/ODS.html">
 								<h3 class="text-white text-center">ODS</h3>
-							</a>
-
-							<a class="col-12 col-xl-5 items align-items-center m-2" href="nosotrxs/valores.html">
-								<h3 class="text-white text-center">Valores</h3>
-							</a>
-
-							<a class="col-12 col-xl-5 items-l align-items-center m-2" href="nosotrxs/objetivos.html">
-								<h3 class="text-white text-center">Objetivos específicos</h3>
 							</a>
 
 							<a class="col-12 col-xl-5 items align-items-center m-2" href="nosotrxs/portal-de-transparencia.html">
@@ -339,7 +359,7 @@
 					<h2 class="text-center text-xl-left my-5">Donaciones</h2>
 
 					<div class="row justify-content-center justify-content-xl-between m-0">
-						<div class="col-12 col-xl-8 row align-content-between">
+						<div class="col-12 col-xl-8 row align-content-center">
 							<div class="m-0 col-12 row publicidad align-items-center fondo-azul p-0">
 								<div class="d-none d-lg-block col-8 p-0">
 									<img class="w-100" src="img/p001.jpeg">
@@ -358,13 +378,6 @@
 									</div>
 								</div>
 							</div>
-
-							<div class="m-0 my-3 col-12 dona-box-link-a fondo-gris-claro py-6 pl-5">
-								<a class="row justify-content-between align-items-center" href="pag/colabora-con-nosotros.html">
-									<p class="col-10">Conoce todas las otras maneras con las que podes colaborar con la Fundación Vicentina</p>
-									<span class="col-2"><i class="fas fa-angle-right"></i></span>
-								</a>
-							</div>
 						</div>
 
 						<div class="col-12 col-xl-4 row align-content-between">
@@ -382,15 +395,6 @@
 								<div class="fondo-gris-claro mt-5 py-6 pl-5 dona-box-link-a">
 									<a class="row justify-content-between align-items-center" href="pag/empresas.html">
 										<h3 class="col-10">Empresas</h3>
-										<span class="col-2"><i class="fas fa-angle-right"></i></span>
-									</a>
-								</div>
-							</div>
-
-							<div class="col-12 fondo-azul dona-box-link mb-3 p-0">
-								<div class="fondo-gris-claro mt-5 py-6 pl-5 dona-box-link-a">
-									<a class="row justify-content-between align-items-center" href="pag/donar.html">
-										<h3 class="col-10">Donación económica</h3>
 										<span class="col-2"><i class="fas fa-angle-right"></i></span>
 									</a>
 								</div>
